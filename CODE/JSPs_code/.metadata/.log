@@ -1,0 +1,1966 @@
+!SESSION 2023-02-14 20:12:37.104 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data E:\CODE\JSPs_code -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-02-14 20:12:43.875
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-14 20:12:43.875
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-14 20:12:43.876
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-02-14 20:12:48.115
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\RITIK SHARMA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 969 2023-02-14 20:20:45.012
+!MESSAGE third_one does not exist
+!SESSION 2023-02-15 04:43:18.705 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data E:\CODE\JSPs_code -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-02-15 04:43:42.652
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-15 04:43:42.652
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-15 04:43:42.652
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-02-15 04:43:50.623
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\RITIK SHARMA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2023-02-15 05:08:17.476
+!MESSAGE IStructuredDocumentRegion management failed.
+!STACK 0
+org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementException: IStructuredDocumentRegion management failed.
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.removeStructuredDocumentRegion(XMLModelParser.java:2267)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.replaceStructuredDocumentRegions(XMLModelParser.java:2341)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.nodesReplaced(DOMModelImpl.java:742)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:602)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1200)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1981)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2425)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2410)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:143)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:150)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:146)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replace(BasicStructuredDocument.java:2370)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$0(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$1.run(JobSafeStructuredDocument.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:150)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replace(JobSafeStructuredDocument.java:108)
+	at org.eclipse.jface.text.projection.ProjectionTextStore.replace(ProjectionTextStore.java:106)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1093)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1118)
+	at org.eclipse.jface.text.projection.ProjectionDocument.replace(ProjectionDocument.java:627)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(DefaultDocumentAdapter.java:223)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7638)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:8538)
+	at org.eclipse.swt.custom.StyledText.doBackspace(StyledText.java:2312)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:7427)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:6225)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6252)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5931)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1542)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4745)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2023-02-15 05:11:59.217
+!MESSAGE IStructuredDocumentRegion management failed.
+!STACK 0
+org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementException: IStructuredDocumentRegion management failed.
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.removeStructuredDocumentRegion(XMLModelParser.java:2267)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.removeStructuredDocumentRegion(XMLModelParser.java:2290)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.changeStructuredDocumentRegion(XMLModelParser.java:548)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.changeTagName(XMLModelParser.java:580)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.changeRegion(XMLModelParser.java:349)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.regionChanged(DOMModelImpl.java:801)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:544)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1182)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1966)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2425)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2410)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:143)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:150)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:146)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replace(BasicStructuredDocument.java:2370)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$0(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$1.run(JobSafeStructuredDocument.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:150)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replace(JobSafeStructuredDocument.java:108)
+	at org.eclipse.jface.text.projection.ProjectionTextStore.replace(ProjectionTextStore.java:106)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1093)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1118)
+	at org.eclipse.jface.text.projection.ProjectionDocument.replace(ProjectionDocument.java:627)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(DefaultDocumentAdapter.java:223)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7638)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:8538)
+	at org.eclipse.swt.custom.StyledText.doBackspace(StyledText.java:2340)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:7427)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:6225)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6252)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5931)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1542)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4745)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SESSION 2023-02-15 08:30:55.453 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-02-15 08:45:35.580
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-15 08:45:35.580
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-15 08:45:35.580
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-02-15 08:45:42.987
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\RITIK SHARMA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.emf.ecore.xmi 2 0 2023-02-15 08:46:04.374
+!MESSAGE java.net.UnknownHostException: www.oracle.com
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.emf.ecore.xmi.util.DefaultEcoreBuilder.generate(DefaultEcoreBuilder.java:90)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.processSchemaLocations(XMLHandler.java:1761)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.handleTopLocations(XMLHandler.java:1802)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.createObjectByType(XMLHandler.java:1350)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.createTopObject(XMLHandler.java:1522)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.processElement(XMLHandler.java:1044)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.processElement(XMIHandler.java:78)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:1026)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:720)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.startElement(XMIHandler.java:190)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3079)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:836)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:326)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1563)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1342)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:811)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1064)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:187)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:237)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:261)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:139)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getNewContentProviderInstance(Web25ContentProvider.java:69)
+	at org.eclipse.jst.jee.ui.internal.navigator.LoadingJeeDDJob.run(LoadingJeeDDJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: java.net.UnknownHostException: www.oracle.com
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:406)
+	at org.eclipse.xsd.ecore.XSDEcoreBuilder.generateResources(XSDEcoreBuilder.java:2788)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 47 more
+Caused by: java.net.UnknownHostException: www.oracle.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:560)
+	at java.base/java.net.Socket.connect(Socket.java:666)
+	at java.base/java.net.Socket.connect(Socket.java:600)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:279)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:384)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:406)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1308)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1241)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1127)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1056)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.followRedirect0(HttpURLConnection.java:2898)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.followRedirect(HttpURLConnection.java:2807)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1923)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585)
+	at org.eclipse.emf.ecore.resource.impl.URIHandlerImpl.createInputStream(URIHandlerImpl.java:207)
+	at org.eclipse.emf.ecore.resource.impl.ExtensibleURIConverterImpl.createInputStream(ExtensibleURIConverterImpl.java:358)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1314)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 50 more
+Root exception:
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: java.net.UnknownHostException: www.oracle.com
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:406)
+	at org.eclipse.xsd.ecore.XSDEcoreBuilder.generateResources(XSDEcoreBuilder.java:2788)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.emf.ecore.xmi.util.DefaultEcoreBuilder.generate(DefaultEcoreBuilder.java:90)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.processSchemaLocations(XMLHandler.java:1761)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.handleTopLocations(XMLHandler.java:1802)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.createObjectByType(XMLHandler.java:1350)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.createTopObject(XMLHandler.java:1522)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.processElement(XMLHandler.java:1044)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.processElement(XMIHandler.java:78)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:1026)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:720)
+	at org.eclipse.emf.ecore.xmi.impl.XMIHandler.startElement(XMIHandler.java:190)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3079)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:836)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:326)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1563)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1342)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:811)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1064)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:187)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:237)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:261)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:139)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getNewContentProviderInstance(Web25ContentProvider.java:69)
+	at org.eclipse.jst.jee.ui.internal.navigator.LoadingJeeDDJob.run(LoadingJeeDDJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.UnknownHostException: www.oracle.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:560)
+	at java.base/java.net.Socket.connect(Socket.java:666)
+	at java.base/java.net.Socket.connect(Socket.java:600)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:279)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:384)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:406)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1308)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1241)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1127)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1056)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.followRedirect0(HttpURLConnection.java:2898)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.followRedirect(HttpURLConnection.java:2807)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1923)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585)
+	at org.eclipse.emf.ecore.resource.impl.URIHandlerImpl.createInputStream(URIHandlerImpl.java:207)
+	at org.eclipse.emf.ecore.resource.impl.ExtensibleURIConverterImpl.createInputStream(ExtensibleURIConverterImpl.java:358)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1314)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 50 more
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2023-02-15 08:52:34.125
+!MESSAGE Port 9494 required by Tomcat v9.0 Server at localhost is already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY com.codeaffine.archive.ui 4 0 2023-02-15 09:06:44.967
+!MESSAGE zip END header not found
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1483)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1491)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1329)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1292)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:710)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:243)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:172)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:186)
+	at com.codeaffine.archive.ui.internal.model.ArchiveReader.openZipFile(ArchiveReader.java:49)
+	at com.codeaffine.archive.ui.internal.model.ArchiveReader.read(ArchiveReader.java:39)
+	at com.codeaffine.archive.ui.internal.model.ArchiveReader.read(ArchiveReader.java:21)
+	at com.codeaffine.archive.ui.internal.viewer.ArchiveContentProvider.getChildren(ArchiveContentProvider.java:78)
+	at com.codeaffine.archive.ui.internal.viewer.ArchiveContentProvider.getChildren(ArchiveContentProvider.java:38)
+	at com.codeaffine.archive.ui.internal.viewer.ArchiveContentProviderWrapper.getChildren(ArchiveContentProviderWrapper.java:27)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:98)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:241)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:96)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:160)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:146)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:132)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1438)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:350)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:638)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:837)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:790)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleTreeExpand(AbstractTreeViewer.java:1565)
+	at org.eclipse.jface.viewers.TreeViewer.handleTreeExpand(TreeViewer.java:897)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$3.treeExpanded(AbstractTreeViewer.java:1577)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:136)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Tree.wmNotifyChild(Tree.java:7585)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5799)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1961)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5367)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4801)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Tree.callWindowProc(Tree.java:1542)
+	at org.eclipse.swt.widgets.Tree.WM_LBUTTONDOWN(Tree.java:6484)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4781)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:6016)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-02-15 09:13:32.047
+!MESSAGE Attempting to install a second facet version for an already installed facet: Dynamic Web Module 2.3[Dynamic Web Module 2.2]
+!STACK 0
+java.lang.UnsupportedOperationException: Attempting to install a second facet version for an already installed facet: Dynamic Web Module 2.3[Dynamic Web Module 2.2]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.check(FacetedProjectFrameworkImpl.java:954)
+	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.check(ProjectFacetsManager.java:419)
+	at org.eclipse.jst.ws.internal.consumption.common.FacetUtils.match(FacetUtils.java:584)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplates(FacetMatchCache.java:500)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplatesForClientRuntime(FacetMatchCache.java:435)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getClientProjectTemplates(WebServiceRuntimeExtensionUtils2.java:1809)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getClientProjectTemplates(WebServiceRuntimeExtensionUtils2.java:1841)
+	at org.eclipse.jst.ws.internal.consumption.ui.widgets.runtime.ClientRuntimeSelectionWidgetDefaultingCommand.defaultClientSideFromServiceSide(ClientRuntimeSelectionWidgetDefaultingCommand.java:1336)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.defaultClientSide(ServerRuntimeSelectionWidgetDefaultingCommand.java:251)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.execute(ServerRuntimeSelectionWidgetDefaultingCommand.java:219)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.runCommand(CommandFragmentEngine.java:421)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.visitTop(CommandFragmentEngine.java:361)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.moveForwardToNextStop(CommandFragmentEngine.java:256)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager$6.run(SimpleCommandEngineManager.java:296)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager.runForwardToNextStop(SimpleCommandEngineManager.java:260)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.runForwardToNextStop(WizardPageManager.java:93)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getNextPage(WizardPageManager.java:156)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getStartingPage(WizardPageManager.java:82)
+	at org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard.getStartingPage(DynamicWizard.java:366)
+	at org.eclipse.jface.wizard.WizardSelectionPage.getNextPage(WizardSelectionPage.java:122)
+	at org.eclipse.ui.internal.dialogs.WorkbenchWizardSelectionPage.getNextPage(WorkbenchWizardSelectionPage.java:98)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:911)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:469)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:263)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:283)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:142)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-02-15 09:13:32.049
+!MESSAGE Attempting to install a second facet version for an already installed facet: Dynamic Web Module 5.0[Dynamic Web Module 2.2]
+!STACK 0
+java.lang.UnsupportedOperationException: Attempting to install a second facet version for an already installed facet: Dynamic Web Module 5.0[Dynamic Web Module 2.2]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.check(FacetedProjectFrameworkImpl.java:954)
+	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.check(ProjectFacetsManager.java:419)
+	at org.eclipse.jst.ws.internal.consumption.common.FacetUtils.match(FacetUtils.java:584)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplates(FacetMatchCache.java:500)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplatesForClientRuntime(FacetMatchCache.java:435)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getClientProjectTemplates(WebServiceRuntimeExtensionUtils2.java:1809)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getClientProjectTemplates(WebServiceRuntimeExtensionUtils2.java:1841)
+	at org.eclipse.jst.ws.internal.consumption.ui.widgets.runtime.ClientRuntimeSelectionWidgetDefaultingCommand.defaultClientSideFromServiceSide(ClientRuntimeSelectionWidgetDefaultingCommand.java:1336)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.defaultClientSide(ServerRuntimeSelectionWidgetDefaultingCommand.java:251)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.execute(ServerRuntimeSelectionWidgetDefaultingCommand.java:219)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.runCommand(CommandFragmentEngine.java:421)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.visitTop(CommandFragmentEngine.java:361)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.moveForwardToNextStop(CommandFragmentEngine.java:256)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager$6.run(SimpleCommandEngineManager.java:296)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager.runForwardToNextStop(SimpleCommandEngineManager.java:260)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.runForwardToNextStop(WizardPageManager.java:93)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getNextPage(WizardPageManager.java:156)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getStartingPage(WizardPageManager.java:82)
+	at org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard.getStartingPage(DynamicWizard.java:366)
+	at org.eclipse.jface.wizard.WizardSelectionPage.getNextPage(WizardSelectionPage.java:122)
+	at org.eclipse.ui.internal.dialogs.WorkbenchWizardSelectionPage.getNextPage(WorkbenchWizardSelectionPage.java:98)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:911)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:469)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:263)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:283)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:142)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-02-15 09:13:32.051
+!MESSAGE Attempting to install a second facet version for an already installed facet: Dynamic Web Module 2.4[Dynamic Web Module 2.2]
+!STACK 0
+java.lang.UnsupportedOperationException: Attempting to install a second facet version for an already installed facet: Dynamic Web Module 2.4[Dynamic Web Module 2.2]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.check(FacetedProjectFrameworkImpl.java:954)
+	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.check(ProjectFacetsManager.java:419)
+	at org.eclipse.jst.ws.internal.consumption.common.FacetUtils.match(FacetUtils.java:584)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplates(FacetMatchCache.java:500)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplatesForClientRuntime(FacetMatchCache.java:435)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getClientProjectTemplates(WebServiceRuntimeExtensionUtils2.java:1809)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getClientProjectTemplates(WebServiceRuntimeExtensionUtils2.java:1841)
+	at org.eclipse.jst.ws.internal.consumption.ui.widgets.runtime.ClientRuntimeSelectionWidgetDefaultingCommand.defaultClientSideFromServiceSide(ClientRuntimeSelectionWidgetDefaultingCommand.java:1336)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.defaultClientSide(ServerRuntimeSelectionWidgetDefaultingCommand.java:251)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.execute(ServerRuntimeSelectionWidgetDefaultingCommand.java:219)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.runCommand(CommandFragmentEngine.java:421)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.visitTop(CommandFragmentEngine.java:361)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.moveForwardToNextStop(CommandFragmentEngine.java:256)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager$6.run(SimpleCommandEngineManager.java:296)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager.runForwardToNextStop(SimpleCommandEngineManager.java:260)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.runForwardToNextStop(WizardPageManager.java:93)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getNextPage(WizardPageManager.java:156)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getStartingPage(WizardPageManager.java:82)
+	at org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard.getStartingPage(DynamicWizard.java:366)
+	at org.eclipse.jface.wizard.WizardSelectionPage.getNextPage(WizardSelectionPage.java:122)
+	at org.eclipse.ui.internal.dialogs.WorkbenchWizardSelectionPage.getNextPage(WorkbenchWizardSelectionPage.java:98)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:911)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:469)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:263)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:283)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:142)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-02-15 09:13:32.054
+!MESSAGE Attempting to install a second facet version for an already installed facet: Dynamic Web Module 3.1[Dynamic Web Module 2.2]
+!STACK 0
+java.lang.UnsupportedOperationException: Attempting to install a second facet version for an already installed facet: Dynamic Web Module 3.1[Dynamic Web Module 2.2]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.check(FacetedProjectFrameworkImpl.java:954)
+	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.check(ProjectFacetsManager.java:419)
+	at org.eclipse.jst.ws.internal.consumption.common.FacetUtils.match(FacetUtils.java:584)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplates(FacetMatchCache.java:500)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplatesForClientRuntime(FacetMatchCache.java:435)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getClientProjectTemplates(WebServiceRuntimeExtensionUtils2.java:1809)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getClientProjectTemplates(WebServiceRuntimeExtensionUtils2.java:1841)
+	at org.eclipse.jst.ws.internal.consumption.ui.widgets.runtime.ClientRuntimeSelectionWidgetDefaultingCommand.defaultClientSideFromServiceSide(ClientRuntimeSelectionWidgetDefaultingCommand.java:1336)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.defaultClientSide(ServerRuntimeSelectionWidgetDefaultingCommand.java:251)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.execute(ServerRuntimeSelectionWidgetDefaultingCommand.java:219)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.runCommand(CommandFragmentEngine.java:421)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.visitTop(CommandFragmentEngine.java:361)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.moveForwardToNextStop(CommandFragmentEngine.java:256)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager$6.run(SimpleCommandEngineManager.java:296)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager.runForwardToNextStop(SimpleCommandEngineManager.java:260)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.runForwardToNextStop(WizardPageManager.java:93)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getNextPage(WizardPageManager.java:156)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getStartingPage(WizardPageManager.java:82)
+	at org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard.getStartingPage(DynamicWizard.java:366)
+	at org.eclipse.jface.wizard.WizardSelectionPage.getNextPage(WizardSelectionPage.java:122)
+	at org.eclipse.ui.internal.dialogs.WorkbenchWizardSelectionPage.getNextPage(WorkbenchWizardSelectionPage.java:98)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:911)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:469)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:263)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:283)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:142)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-02-15 09:13:32.056
+!MESSAGE Attempting to install a second facet version for an already installed facet: Dynamic Web Module 2.5[Dynamic Web Module 2.2]
+!STACK 0
+java.lang.UnsupportedOperationException: Attempting to install a second facet version for an already installed facet: Dynamic Web Module 2.5[Dynamic Web Module 2.2]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.check(FacetedProjectFrameworkImpl.java:954)
+	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.check(ProjectFacetsManager.java:419)
+	at org.eclipse.jst.ws.internal.consumption.common.FacetUtils.match(FacetUtils.java:584)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplates(FacetMatchCache.java:500)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplatesForClientRuntime(FacetMatchCache.java:435)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getClientProjectTemplates(WebServiceRuntimeExtensionUtils2.java:1809)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getClientProjectTemplates(WebServiceRuntimeExtensionUtils2.java:1841)
+	at org.eclipse.jst.ws.internal.consumption.ui.widgets.runtime.ClientRuntimeSelectionWidgetDefaultingCommand.defaultClientSideFromServiceSide(ClientRuntimeSelectionWidgetDefaultingCommand.java:1336)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.defaultClientSide(ServerRuntimeSelectionWidgetDefaultingCommand.java:251)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.execute(ServerRuntimeSelectionWidgetDefaultingCommand.java:219)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.runCommand(CommandFragmentEngine.java:421)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.visitTop(CommandFragmentEngine.java:361)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.moveForwardToNextStop(CommandFragmentEngine.java:256)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager$6.run(SimpleCommandEngineManager.java:296)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager.runForwardToNextStop(SimpleCommandEngineManager.java:260)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.runForwardToNextStop(WizardPageManager.java:93)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getNextPage(WizardPageManager.java:156)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getStartingPage(WizardPageManager.java:82)
+	at org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard.getStartingPage(DynamicWizard.java:366)
+	at org.eclipse.jface.wizard.WizardSelectionPage.getNextPage(WizardSelectionPage.java:122)
+	at org.eclipse.ui.internal.dialogs.WorkbenchWizardSelectionPage.getNextPage(WorkbenchWizardSelectionPage.java:98)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:911)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:469)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:263)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:283)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:142)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-02-15 09:13:32.058
+!MESSAGE Attempting to install a second facet version for an already installed facet: Dynamic Web Module 3.0[Dynamic Web Module 2.2]
+!STACK 0
+java.lang.UnsupportedOperationException: Attempting to install a second facet version for an already installed facet: Dynamic Web Module 3.0[Dynamic Web Module 2.2]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.check(FacetedProjectFrameworkImpl.java:954)
+	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.check(ProjectFacetsManager.java:419)
+	at org.eclipse.jst.ws.internal.consumption.common.FacetUtils.match(FacetUtils.java:584)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplates(FacetMatchCache.java:500)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplatesForClientRuntime(FacetMatchCache.java:435)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getClientProjectTemplates(WebServiceRuntimeExtensionUtils2.java:1809)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getClientProjectTemplates(WebServiceRuntimeExtensionUtils2.java:1841)
+	at org.eclipse.jst.ws.internal.consumption.ui.widgets.runtime.ClientRuntimeSelectionWidgetDefaultingCommand.defaultClientSideFromServiceSide(ClientRuntimeSelectionWidgetDefaultingCommand.java:1336)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.defaultClientSide(ServerRuntimeSelectionWidgetDefaultingCommand.java:251)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.execute(ServerRuntimeSelectionWidgetDefaultingCommand.java:219)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.runCommand(CommandFragmentEngine.java:421)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.visitTop(CommandFragmentEngine.java:361)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.moveForwardToNextStop(CommandFragmentEngine.java:256)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager$6.run(SimpleCommandEngineManager.java:296)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager.runForwardToNextStop(SimpleCommandEngineManager.java:260)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.runForwardToNextStop(WizardPageManager.java:93)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getNextPage(WizardPageManager.java:156)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getStartingPage(WizardPageManager.java:82)
+	at org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard.getStartingPage(DynamicWizard.java:366)
+	at org.eclipse.jface.wizard.WizardSelectionPage.getNextPage(WizardSelectionPage.java:122)
+	at org.eclipse.ui.internal.dialogs.WorkbenchWizardSelectionPage.getNextPage(WorkbenchWizardSelectionPage.java:98)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:911)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:469)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:263)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:283)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:142)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-02-15 09:13:32.061
+!MESSAGE Attempting to install a second facet version for an already installed facet: Dynamic Web Module 4.0[Dynamic Web Module 2.2]
+!STACK 0
+java.lang.UnsupportedOperationException: Attempting to install a second facet version for an already installed facet: Dynamic Web Module 4.0[Dynamic Web Module 2.2]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.check(FacetedProjectFrameworkImpl.java:954)
+	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.check(ProjectFacetsManager.java:419)
+	at org.eclipse.jst.ws.internal.consumption.common.FacetUtils.match(FacetUtils.java:584)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplates(FacetMatchCache.java:500)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplatesForClientRuntime(FacetMatchCache.java:435)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getClientProjectTemplates(WebServiceRuntimeExtensionUtils2.java:1809)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getClientProjectTemplates(WebServiceRuntimeExtensionUtils2.java:1841)
+	at org.eclipse.jst.ws.internal.consumption.ui.widgets.runtime.ClientRuntimeSelectionWidgetDefaultingCommand.defaultClientSideFromServiceSide(ClientRuntimeSelectionWidgetDefaultingCommand.java:1336)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.defaultClientSide(ServerRuntimeSelectionWidgetDefaultingCommand.java:251)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.execute(ServerRuntimeSelectionWidgetDefaultingCommand.java:219)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.runCommand(CommandFragmentEngine.java:421)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.visitTop(CommandFragmentEngine.java:361)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.moveForwardToNextStop(CommandFragmentEngine.java:256)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager$6.run(SimpleCommandEngineManager.java:296)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager.runForwardToNextStop(SimpleCommandEngineManager.java:260)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.runForwardToNextStop(WizardPageManager.java:93)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getNextPage(WizardPageManager.java:156)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getStartingPage(WizardPageManager.java:82)
+	at org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard.getStartingPage(DynamicWizard.java:366)
+	at org.eclipse.jface.wizard.WizardSelectionPage.getNextPage(WizardSelectionPage.java:122)
+	at org.eclipse.ui.internal.dialogs.WorkbenchWizardSelectionPage.getNextPage(WorkbenchWizardSelectionPage.java:98)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:911)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:469)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:263)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:283)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:142)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-02-15 09:13:32.068
+!MESSAGE Attempting to install a second facet version for an already installed facet: Dynamic Web Module 2.3[Dynamic Web Module 2.2]
+!STACK 0
+java.lang.UnsupportedOperationException: Attempting to install a second facet version for an already installed facet: Dynamic Web Module 2.3[Dynamic Web Module 2.2]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.check(FacetedProjectFrameworkImpl.java:954)
+	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.check(ProjectFacetsManager.java:419)
+	at org.eclipse.jst.ws.internal.consumption.common.FacetUtils.match(FacetUtils.java:584)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplates(FacetMatchCache.java:500)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplatesForServiceRuntime(FacetMatchCache.java:476)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getAllServiceProjectTypes(WebServiceRuntimeExtensionUtils2.java:149)
+	at org.eclipse.jst.ws.internal.consumption.ui.preferences.ProjectTopologyDefaults.getServiceTypes(ProjectTopologyDefaults.java:26)
+	at org.eclipse.jst.ws.internal.consumption.ui.preferences.PersistentProjectTopologyContext.load(PersistentProjectTopologyContext.java:37)
+	at org.eclipse.jst.ws.internal.consumption.ui.plugin.WebServiceConsumptionUIPlugin.getProjectTopologyContext(WebServiceConsumptionUIPlugin.java:95)
+	at org.eclipse.jst.ws.internal.consumption.ui.widgets.runtime.ClientRuntimeSelectionWidgetDefaultingCommand.defaultClientSideFromServiceSide(ClientRuntimeSelectionWidgetDefaultingCommand.java:1339)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.defaultClientSide(ServerRuntimeSelectionWidgetDefaultingCommand.java:251)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.execute(ServerRuntimeSelectionWidgetDefaultingCommand.java:219)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.runCommand(CommandFragmentEngine.java:421)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.visitTop(CommandFragmentEngine.java:361)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.moveForwardToNextStop(CommandFragmentEngine.java:256)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager$6.run(SimpleCommandEngineManager.java:296)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager.runForwardToNextStop(SimpleCommandEngineManager.java:260)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.runForwardToNextStop(WizardPageManager.java:93)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getNextPage(WizardPageManager.java:156)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getStartingPage(WizardPageManager.java:82)
+	at org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard.getStartingPage(DynamicWizard.java:366)
+	at org.eclipse.jface.wizard.WizardSelectionPage.getNextPage(WizardSelectionPage.java:122)
+	at org.eclipse.ui.internal.dialogs.WorkbenchWizardSelectionPage.getNextPage(WorkbenchWizardSelectionPage.java:98)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:911)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:469)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:263)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:283)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:142)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-02-15 09:13:32.072
+!MESSAGE Attempting to install a second facet version for an already installed facet: Dynamic Web Module 5.0[Dynamic Web Module 2.2]
+!STACK 0
+java.lang.UnsupportedOperationException: Attempting to install a second facet version for an already installed facet: Dynamic Web Module 5.0[Dynamic Web Module 2.2]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.check(FacetedProjectFrameworkImpl.java:954)
+	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.check(ProjectFacetsManager.java:419)
+	at org.eclipse.jst.ws.internal.consumption.common.FacetUtils.match(FacetUtils.java:584)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplates(FacetMatchCache.java:500)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplatesForServiceRuntime(FacetMatchCache.java:476)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getAllServiceProjectTypes(WebServiceRuntimeExtensionUtils2.java:149)
+	at org.eclipse.jst.ws.internal.consumption.ui.preferences.ProjectTopologyDefaults.getServiceTypes(ProjectTopologyDefaults.java:26)
+	at org.eclipse.jst.ws.internal.consumption.ui.preferences.PersistentProjectTopologyContext.load(PersistentProjectTopologyContext.java:37)
+	at org.eclipse.jst.ws.internal.consumption.ui.plugin.WebServiceConsumptionUIPlugin.getProjectTopologyContext(WebServiceConsumptionUIPlugin.java:95)
+	at org.eclipse.jst.ws.internal.consumption.ui.widgets.runtime.ClientRuntimeSelectionWidgetDefaultingCommand.defaultClientSideFromServiceSide(ClientRuntimeSelectionWidgetDefaultingCommand.java:1339)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.defaultClientSide(ServerRuntimeSelectionWidgetDefaultingCommand.java:251)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.execute(ServerRuntimeSelectionWidgetDefaultingCommand.java:219)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.runCommand(CommandFragmentEngine.java:421)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.visitTop(CommandFragmentEngine.java:361)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.moveForwardToNextStop(CommandFragmentEngine.java:256)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager$6.run(SimpleCommandEngineManager.java:296)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager.runForwardToNextStop(SimpleCommandEngineManager.java:260)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.runForwardToNextStop(WizardPageManager.java:93)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getNextPage(WizardPageManager.java:156)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getStartingPage(WizardPageManager.java:82)
+	at org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard.getStartingPage(DynamicWizard.java:366)
+	at org.eclipse.jface.wizard.WizardSelectionPage.getNextPage(WizardSelectionPage.java:122)
+	at org.eclipse.ui.internal.dialogs.WorkbenchWizardSelectionPage.getNextPage(WorkbenchWizardSelectionPage.java:98)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:911)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:469)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:263)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:283)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:142)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-02-15 09:13:32.074
+!MESSAGE Attempting to install a second facet version for an already installed facet: Dynamic Web Module 2.4[Dynamic Web Module 2.2]
+!STACK 0
+java.lang.UnsupportedOperationException: Attempting to install a second facet version for an already installed facet: Dynamic Web Module 2.4[Dynamic Web Module 2.2]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.check(FacetedProjectFrameworkImpl.java:954)
+	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.check(ProjectFacetsManager.java:419)
+	at org.eclipse.jst.ws.internal.consumption.common.FacetUtils.match(FacetUtils.java:584)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplates(FacetMatchCache.java:500)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplatesForServiceRuntime(FacetMatchCache.java:476)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getAllServiceProjectTypes(WebServiceRuntimeExtensionUtils2.java:149)
+	at org.eclipse.jst.ws.internal.consumption.ui.preferences.ProjectTopologyDefaults.getServiceTypes(ProjectTopologyDefaults.java:26)
+	at org.eclipse.jst.ws.internal.consumption.ui.preferences.PersistentProjectTopologyContext.load(PersistentProjectTopologyContext.java:37)
+	at org.eclipse.jst.ws.internal.consumption.ui.plugin.WebServiceConsumptionUIPlugin.getProjectTopologyContext(WebServiceConsumptionUIPlugin.java:95)
+	at org.eclipse.jst.ws.internal.consumption.ui.widgets.runtime.ClientRuntimeSelectionWidgetDefaultingCommand.defaultClientSideFromServiceSide(ClientRuntimeSelectionWidgetDefaultingCommand.java:1339)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.defaultClientSide(ServerRuntimeSelectionWidgetDefaultingCommand.java:251)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.execute(ServerRuntimeSelectionWidgetDefaultingCommand.java:219)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.runCommand(CommandFragmentEngine.java:421)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.visitTop(CommandFragmentEngine.java:361)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.moveForwardToNextStop(CommandFragmentEngine.java:256)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager$6.run(SimpleCommandEngineManager.java:296)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager.runForwardToNextStop(SimpleCommandEngineManager.java:260)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.runForwardToNextStop(WizardPageManager.java:93)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getNextPage(WizardPageManager.java:156)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getStartingPage(WizardPageManager.java:82)
+	at org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard.getStartingPage(DynamicWizard.java:366)
+	at org.eclipse.jface.wizard.WizardSelectionPage.getNextPage(WizardSelectionPage.java:122)
+	at org.eclipse.ui.internal.dialogs.WorkbenchWizardSelectionPage.getNextPage(WorkbenchWizardSelectionPage.java:98)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:911)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:469)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:263)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:283)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:142)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-02-15 09:13:32.076
+!MESSAGE Attempting to install a second facet version for an already installed facet: Dynamic Web Module 3.1[Dynamic Web Module 2.2]
+!STACK 0
+java.lang.UnsupportedOperationException: Attempting to install a second facet version for an already installed facet: Dynamic Web Module 3.1[Dynamic Web Module 2.2]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.check(FacetedProjectFrameworkImpl.java:954)
+	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.check(ProjectFacetsManager.java:419)
+	at org.eclipse.jst.ws.internal.consumption.common.FacetUtils.match(FacetUtils.java:584)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplates(FacetMatchCache.java:500)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplatesForServiceRuntime(FacetMatchCache.java:476)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getAllServiceProjectTypes(WebServiceRuntimeExtensionUtils2.java:149)
+	at org.eclipse.jst.ws.internal.consumption.ui.preferences.ProjectTopologyDefaults.getServiceTypes(ProjectTopologyDefaults.java:26)
+	at org.eclipse.jst.ws.internal.consumption.ui.preferences.PersistentProjectTopologyContext.load(PersistentProjectTopologyContext.java:37)
+	at org.eclipse.jst.ws.internal.consumption.ui.plugin.WebServiceConsumptionUIPlugin.getProjectTopologyContext(WebServiceConsumptionUIPlugin.java:95)
+	at org.eclipse.jst.ws.internal.consumption.ui.widgets.runtime.ClientRuntimeSelectionWidgetDefaultingCommand.defaultClientSideFromServiceSide(ClientRuntimeSelectionWidgetDefaultingCommand.java:1339)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.defaultClientSide(ServerRuntimeSelectionWidgetDefaultingCommand.java:251)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.execute(ServerRuntimeSelectionWidgetDefaultingCommand.java:219)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.runCommand(CommandFragmentEngine.java:421)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.visitTop(CommandFragmentEngine.java:361)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.moveForwardToNextStop(CommandFragmentEngine.java:256)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager$6.run(SimpleCommandEngineManager.java:296)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager.runForwardToNextStop(SimpleCommandEngineManager.java:260)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.runForwardToNextStop(WizardPageManager.java:93)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getNextPage(WizardPageManager.java:156)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getStartingPage(WizardPageManager.java:82)
+	at org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard.getStartingPage(DynamicWizard.java:366)
+	at org.eclipse.jface.wizard.WizardSelectionPage.getNextPage(WizardSelectionPage.java:122)
+	at org.eclipse.ui.internal.dialogs.WorkbenchWizardSelectionPage.getNextPage(WorkbenchWizardSelectionPage.java:98)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:911)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:469)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:263)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:283)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:142)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-02-15 09:13:32.078
+!MESSAGE Attempting to install a second facet version for an already installed facet: Dynamic Web Module 2.5[Dynamic Web Module 2.2]
+!STACK 0
+java.lang.UnsupportedOperationException: Attempting to install a second facet version for an already installed facet: Dynamic Web Module 2.5[Dynamic Web Module 2.2]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.check(FacetedProjectFrameworkImpl.java:954)
+	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.check(ProjectFacetsManager.java:419)
+	at org.eclipse.jst.ws.internal.consumption.common.FacetUtils.match(FacetUtils.java:584)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplates(FacetMatchCache.java:500)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplatesForServiceRuntime(FacetMatchCache.java:476)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getAllServiceProjectTypes(WebServiceRuntimeExtensionUtils2.java:149)
+	at org.eclipse.jst.ws.internal.consumption.ui.preferences.ProjectTopologyDefaults.getServiceTypes(ProjectTopologyDefaults.java:26)
+	at org.eclipse.jst.ws.internal.consumption.ui.preferences.PersistentProjectTopologyContext.load(PersistentProjectTopologyContext.java:37)
+	at org.eclipse.jst.ws.internal.consumption.ui.plugin.WebServiceConsumptionUIPlugin.getProjectTopologyContext(WebServiceConsumptionUIPlugin.java:95)
+	at org.eclipse.jst.ws.internal.consumption.ui.widgets.runtime.ClientRuntimeSelectionWidgetDefaultingCommand.defaultClientSideFromServiceSide(ClientRuntimeSelectionWidgetDefaultingCommand.java:1339)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.defaultClientSide(ServerRuntimeSelectionWidgetDefaultingCommand.java:251)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.execute(ServerRuntimeSelectionWidgetDefaultingCommand.java:219)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.runCommand(CommandFragmentEngine.java:421)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.visitTop(CommandFragmentEngine.java:361)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.moveForwardToNextStop(CommandFragmentEngine.java:256)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager$6.run(SimpleCommandEngineManager.java:296)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager.runForwardToNextStop(SimpleCommandEngineManager.java:260)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.runForwardToNextStop(WizardPageManager.java:93)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getNextPage(WizardPageManager.java:156)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getStartingPage(WizardPageManager.java:82)
+	at org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard.getStartingPage(DynamicWizard.java:366)
+	at org.eclipse.jface.wizard.WizardSelectionPage.getNextPage(WizardSelectionPage.java:122)
+	at org.eclipse.ui.internal.dialogs.WorkbenchWizardSelectionPage.getNextPage(WorkbenchWizardSelectionPage.java:98)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:911)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:469)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:263)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:283)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:142)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-02-15 09:13:32.081
+!MESSAGE Attempting to install a second facet version for an already installed facet: Dynamic Web Module 3.0[Dynamic Web Module 2.2]
+!STACK 0
+java.lang.UnsupportedOperationException: Attempting to install a second facet version for an already installed facet: Dynamic Web Module 3.0[Dynamic Web Module 2.2]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.check(FacetedProjectFrameworkImpl.java:954)
+	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.check(ProjectFacetsManager.java:419)
+	at org.eclipse.jst.ws.internal.consumption.common.FacetUtils.match(FacetUtils.java:584)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplates(FacetMatchCache.java:500)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplatesForServiceRuntime(FacetMatchCache.java:476)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getAllServiceProjectTypes(WebServiceRuntimeExtensionUtils2.java:149)
+	at org.eclipse.jst.ws.internal.consumption.ui.preferences.ProjectTopologyDefaults.getServiceTypes(ProjectTopologyDefaults.java:26)
+	at org.eclipse.jst.ws.internal.consumption.ui.preferences.PersistentProjectTopologyContext.load(PersistentProjectTopologyContext.java:37)
+	at org.eclipse.jst.ws.internal.consumption.ui.plugin.WebServiceConsumptionUIPlugin.getProjectTopologyContext(WebServiceConsumptionUIPlugin.java:95)
+	at org.eclipse.jst.ws.internal.consumption.ui.widgets.runtime.ClientRuntimeSelectionWidgetDefaultingCommand.defaultClientSideFromServiceSide(ClientRuntimeSelectionWidgetDefaultingCommand.java:1339)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.defaultClientSide(ServerRuntimeSelectionWidgetDefaultingCommand.java:251)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.execute(ServerRuntimeSelectionWidgetDefaultingCommand.java:219)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.runCommand(CommandFragmentEngine.java:421)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.visitTop(CommandFragmentEngine.java:361)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.moveForwardToNextStop(CommandFragmentEngine.java:256)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager$6.run(SimpleCommandEngineManager.java:296)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager.runForwardToNextStop(SimpleCommandEngineManager.java:260)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.runForwardToNextStop(WizardPageManager.java:93)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getNextPage(WizardPageManager.java:156)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getStartingPage(WizardPageManager.java:82)
+	at org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard.getStartingPage(DynamicWizard.java:366)
+	at org.eclipse.jface.wizard.WizardSelectionPage.getNextPage(WizardSelectionPage.java:122)
+	at org.eclipse.ui.internal.dialogs.WorkbenchWizardSelectionPage.getNextPage(WorkbenchWizardSelectionPage.java:98)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:911)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:469)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:263)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:283)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:142)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-02-15 09:13:32.084
+!MESSAGE Attempting to install a second facet version for an already installed facet: Dynamic Web Module 4.0[Dynamic Web Module 2.2]
+!STACK 0
+java.lang.UnsupportedOperationException: Attempting to install a second facet version for an already installed facet: Dynamic Web Module 4.0[Dynamic Web Module 2.2]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.check(FacetedProjectFrameworkImpl.java:954)
+	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.check(ProjectFacetsManager.java:419)
+	at org.eclipse.jst.ws.internal.consumption.common.FacetUtils.match(FacetUtils.java:584)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplates(FacetMatchCache.java:500)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.FacetMatchCache.getTemplatesForServiceRuntime(FacetMatchCache.java:476)
+	at org.eclipse.jst.ws.internal.consumption.ui.wsrt.WebServiceRuntimeExtensionUtils2.getAllServiceProjectTypes(WebServiceRuntimeExtensionUtils2.java:149)
+	at org.eclipse.jst.ws.internal.consumption.ui.preferences.ProjectTopologyDefaults.getServiceTypes(ProjectTopologyDefaults.java:26)
+	at org.eclipse.jst.ws.internal.consumption.ui.preferences.PersistentProjectTopologyContext.load(PersistentProjectTopologyContext.java:37)
+	at org.eclipse.jst.ws.internal.consumption.ui.plugin.WebServiceConsumptionUIPlugin.getProjectTopologyContext(WebServiceConsumptionUIPlugin.java:95)
+	at org.eclipse.jst.ws.internal.consumption.ui.widgets.runtime.ClientRuntimeSelectionWidgetDefaultingCommand.defaultClientSideFromServiceSide(ClientRuntimeSelectionWidgetDefaultingCommand.java:1339)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.defaultClientSide(ServerRuntimeSelectionWidgetDefaultingCommand.java:251)
+	at org.eclipse.jst.ws.internal.creation.ui.widgets.runtime.ServerRuntimeSelectionWidgetDefaultingCommand.execute(ServerRuntimeSelectionWidgetDefaultingCommand.java:219)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.runCommand(CommandFragmentEngine.java:421)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.visitTop(CommandFragmentEngine.java:361)
+	at org.eclipse.wst.command.internal.env.core.fragment.CommandFragmentEngine.moveForwardToNextStop(CommandFragmentEngine.java:256)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager$6.run(SimpleCommandEngineManager.java:296)
+	at org.eclipse.wst.command.internal.env.ui.widgets.SimpleCommandEngineManager.runForwardToNextStop(SimpleCommandEngineManager.java:260)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.runForwardToNextStop(WizardPageManager.java:93)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getNextPage(WizardPageManager.java:156)
+	at org.eclipse.wst.command.internal.env.ui.widgets.WizardPageManager.getStartingPage(WizardPageManager.java:82)
+	at org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard.getStartingPage(DynamicWizard.java:366)
+	at org.eclipse.jface.wizard.WizardSelectionPage.getNextPage(WizardSelectionPage.java:122)
+	at org.eclipse.ui.internal.dialogs.WorkbenchWizardSelectionPage.getNextPage(WorkbenchWizardSelectionPage.java:98)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:911)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:469)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:263)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:283)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:142)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SESSION 2023-02-15 14:03:42.003 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data E:\CODE\JSPs_code -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-02-15 14:03:48.043
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-15 14:03:48.043
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-15 14:03:48.043
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-02-15 14:03:52.589
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\RITIK SHARMA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-02-16 18:45:47.816 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-02-16 18:46:13.525
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-16 18:46:13.525
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-16 18:46:13.525
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-02-16 18:46:18.772
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\RITIK SHARMA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-02-17 23:21:13.000 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-02-17 23:21:44.605
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-17 23:21:44.605
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-17 23:21:44.605
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-02-17 23:21:51.713
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\RITIK SHARMA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-02-18 10:36:32.714 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-02-18 10:36:44.258
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-18 10:36:44.258
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-18 10:36:44.258
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-02-18 10:36:50.418
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\RITIK SHARMA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.codeaffine.archive.ui 4 0 2023-02-18 11:00:46.021
+!MESSAGE zip END header not found
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1483)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1491)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1329)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1292)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:710)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:243)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:172)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:186)
+	at com.codeaffine.archive.ui.internal.model.ArchiveReader.openZipFile(ArchiveReader.java:49)
+	at com.codeaffine.archive.ui.internal.model.ArchiveReader.read(ArchiveReader.java:39)
+	at com.codeaffine.archive.ui.internal.model.ArchiveReader.read(ArchiveReader.java:21)
+	at com.codeaffine.archive.ui.internal.viewer.ArchiveContentProvider.getChildren(ArchiveContentProvider.java:78)
+	at com.codeaffine.archive.ui.internal.viewer.ArchiveContentProvider.getChildren(ArchiveContentProvider.java:38)
+	at com.codeaffine.archive.ui.internal.viewer.ArchiveContentProviderWrapper.getChildren(ArchiveContentProviderWrapper.java:27)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:98)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:241)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:96)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:160)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:146)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:132)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1438)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:350)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:638)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:837)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:790)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleTreeExpand(AbstractTreeViewer.java:1565)
+	at org.eclipse.jface.viewers.TreeViewer.handleTreeExpand(TreeViewer.java:897)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$3.treeExpanded(AbstractTreeViewer.java:1577)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:136)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Tree.wmNotifyChild(Tree.java:7585)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5799)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1961)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5367)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4801)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Tree.callWindowProc(Tree.java:1542)
+	at org.eclipse.swt.widgets.Tree.WM_LBUTTONDOWN(Tree.java:6484)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4781)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:6016)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)

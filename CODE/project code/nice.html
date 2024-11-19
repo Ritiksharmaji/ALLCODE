@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="nice.css">
+
+</head>
+
+<body>
+    <!--  this is for header part  -->
+    <div class="main-container">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <a class="navbar-brand" href="#">
+                    <img class="banaer_image" src="https://www.effe.in/img/customer-logos/vignan.jpg" />
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link" id="menuitem1" href="admin.html">home <span
+                                class="sr-only">(current)</span></a>
+                        <a class="nav-link" id="menuitem2" href="program_create.html">program</a>
+                        <a class="nav-link" id="menuitem3" href="Faculty_Create.html">faculty</a>
+                        <a class="nav-link" id="menuitem4" href="syllabus.html">syllabus</a>
+                        <a class="nav-link" id="menuitem4" href="logout.html">logout</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- this is body part of home -->
+
+        <div class="detailed-view-bg-container ">
+            <div class="containerrr d-flex flex-row justify-content-center">
+                <div class="containerr mt-5">
+                    <h2 class="heading_id text-center pb-3">Timing details Form</h2>
+                    <table>
+                        <form action="Timing_form" method="post">
+                            <tr>
+                                <td> <label for="timing">Enter The Timing:</label> </td>
+                                <td> <input type="text" id="timingid" name="TimingName" required> </td>
+
+                            </tr>
+                            <tr>
+                                <td> <label for="timing">Enter the subject ID:</label> </td>
+                                <td> <input type="text" id="timingsubjectid" name="Timing_subject_Name" required> </td>
+                            </tr>
+
+                            <tr>
+                                <td> <label for="timing_program">Enter the Program ID:</label> </td>
+                                <td> <input type="text" id="timingprogramid" name="Timing_Program_Name" required> </td>
+                            </tr>
+
+                            <tr>
+                                <td> <label for="timing_faculty">Enter the Faculty id:</label> </td>
+                                <td> <input type="text" id="timing_facultyid" name="Timing_faculty_Name" required> </td>
+                            </tr>
+
+                            <tr>
+                                <td> <label for="timing_day">Enter the Day:</label> </td>
+                                <td> <select id="timing_day" name="Timing_Day">
+                                        <option value="">Select Day</option>
+                                        <option value="monday">MONDAY</option>
+                                        <option value="tuesday">TUESDAY</option>
+                                        <option value="wednesday">WEDNESDAY</option>
+                                        <option value="thursday">THURSDAY</option>
+                                        <option value="friday">FRIDAY</option>
+                                        <option value="saturday">SATURDAY</option>
+                                    </select> </td>
+                            </tr>
+
+                            <tr>
+                                <td> <input type="submit" value="Submit"> </td>
+
+                            </tr>
+                        </form>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--  this is footer section -->
+
+        <div class="footer-section pt-5 pb-5">
+            <div class="container-foot">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="https://www.effe.in/img/customer-logos/vignan.jpg" class="banaer_image" />
+                        <h1 class="footer-section-mail-id">vignanguntur@gmail.com</h1>
+                        <p class="footer-section-address">
+                            pin-code:522213,guntur , vadlamundi
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

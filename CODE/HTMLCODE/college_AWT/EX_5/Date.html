@@ -1,0 +1,29 @@
+<html>
+
+<body>
+    <h2>JavaScript Date </h2>
+    <p id="a"></p>
+    <p id="b"></p>
+    <p id="c"></p>
+    <p id="d"></p>
+    <p id="e"></p>
+    <p id="f"></p>
+    <script>
+        var d = new Date();
+        document.getElementById("a").innerHTML = d;
+        var n = d.getDate();
+        document.getElementById("b").innerHTML = n;
+        var t = d.getFullYear();
+        document.getElementById("c").innerHTML = t;
+        var x = d.getDay()
+        document.getElementById("d").innerHTML = x;
+
+        var y = d.getHours();
+        document.getElementById("e").innerHTML = y;
+
+        var z = d.getMonth();
+        document.getElementById("f").innerHTML = z;
+    </script>
+</body>
+
+</html>

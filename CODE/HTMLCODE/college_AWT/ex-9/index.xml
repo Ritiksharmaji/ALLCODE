@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE automobiles [
+    <!ELEMENT automobiles (vehicle1, vehicle2, vehicle3, vehicle4, vehicle5)>
+    <!ELEMENT vehicle1 EMPTY>
+    <!ELEMENT vehicle2 EMPTY>
+    <!ELEMENT vehicle3 EMPTY>
+    <!ELEMENT vehicle4 EMPTY>
+    <!ELEMENT vehicle5 EMPTY>
+    <!ATTLIST vehicle1
+        type CDATA #REQUIRED
+        model CDATA #REQUIRED
+        engine_number CDATA #REQUIRED
+        color CDATA #REQUIRED
+        cc CDATA #REQUIRED>
+    <!ATTLIST vehicle2
+        type CDATA #REQUIRED
+        model CDATA #REQUIRED
+        engine_number CDATA #REQUIRED
+        color CDATA #REQUIRED
+        cc CDATA #REQUIRED>
+    <!ATTLIST vehicle3
+        type CDATA #REQUIRED
+        model CDATA #REQUIRED
+        engine_number CDATA #REQUIRED
+        color CDATA #REQUIRED
+        cc CDATA #REQUIRED>
+    <!ATTLIST vehicle4
+        type CDATA #REQUIRED
+        model CDATA #REQUIRED
+        engine_number CDATA #REQUIRED
+        color CDATA #REQUIRED
+        cc CDATA #REQUIRED>
+    <!ATTLIST vehicle5
+        type CDATA #REQUIRED
+        model CDATA #REQUIRED
+        engine_number CDATA #REQUIRED
+        color CDATA #REQUIRED
+        cc CDATA #REQUIRED>
+]>
+<automobiles>
+    <vehicle1 type="Sedan" model="XYZ" engine_number="12345" color="Red" cc="1500" />
+    <vehicle2 type="SUV" model="ABC" engine_number="67890" color="Blue" cc="2000" />
+    <vehicle3 type="Hatchback" model="PQR" engine_number="24680" color="Black" cc="1200" />
+    <vehicle4 type="Truck" model="LMN" engine_number="13579" color="White" cc="3000" />
+    <vehicle5 type="Van" model="JKL" engine_number="23456" color="Silver" cc="1800" />
+</automobiles>

@@ -1,0 +1,96 @@
+body {
+
+    background-image: url(https://th.bing.com/th/id/R.60dd65893c0b41115c90d5c6fc533289?rik=6kJfhtu0nw02JA&riu=http%3a%2f%2fvignanuniversity.org%2fimg%2fslides%2fimage2.jpg&ehk=TrLQf7ewvblQQres5CWiVJnW2P3mjd74zKWcQcIvgk0%3d&risl=&pid=ImgRaw&r=0);
+
+    /* background-repeat: no-repeat;  */
+    background-size: cover;
+    /* to decrease the light of background image */
+
+    /* background: hsla(200, 0.5%, 80%, 0.25);  */
+
+
+
+
+}
+
+/*   to set the  */
+
+#form {
+    text-align: center;
+    color: blue;
+    background-color: red;
+    font: size 1000px;
+
+
+}
+
+#student,
+#academic {
+    color: maroon;
+    font-size: larger;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+#marquee {
+    color: springgreen;
+    font-size: xx-large;
+
+}
+
+p {
+    text-decoration-color: blue;
+    width: 200;
+    height: 200;
+}
+
+#table {
+    font-size: larger;
+
+
+}
+
+#name {
+    background-color: chartreuse;
+}
+
+/*#date_of_birth {
+    background-color: chartreuse;
+}
+
+#father {
+    background-color: chartreuse;
+}
+
+#mather {
+    background-color: chartreuse;
+}
+
+#OCCUPATION {
+    background-color: chartreuse;
+}
+
+#Email {
+    background-color: chartreuse;
+}
+
+#phone {
+    background-color: chartreuse;
+}
+
+#mather {
+    background-color: chartreuse;
+}
+     */
+#father,
+#mather,
+#course,
+#OCCUPATION,
+#STATE,
+#Gender,
+#course,
+#phone,
+#Email,
+#date_of_birth {
+    background-color: chartreuse;
+}

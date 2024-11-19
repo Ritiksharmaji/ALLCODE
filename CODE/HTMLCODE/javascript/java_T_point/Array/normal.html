@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <!-- this is font icon awensome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/NewFile.css" rel="stylesheet" type="text/css">
+
+
+    <style type="text/css">
+        /* this is for header part  */
+        .banaer_image {
+            width: 140px;
+            height: 70px;
+        }
+
+        #menuitem1,
+        #menuitem2,
+        #menuitem3,
+        #menuitem4 {
+            font-family: "Roboto";
+        }
+
+
+        .main-container {
+            background-color: green;
+        }
+
+        .detailed-view-bg-container {
+            height: 100vh;
+            background-image: radial-gradient(#2196f3, #f44336);
+            background-size: cover;
+        }
+
+        /* this is for body part  */
+        .containerr {
+            width: 400px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+        }
+
+        .containerr {
+
+            width: 440px;
+
+            background-color: mediumspringgreen;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        input[type="text"],
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+
+
+        /* this is footer section css code  */
+        .footer-section {
+            background-color: #0d2436;
+        }
+
+        .footer-section-mail-id {
+            color: #959ead;
+            font-family: "Roboto";
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .footer-section-address {
+            color: #959ead;
+            font-family: "Roboto";
+            font-size: 14px;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div id="sectionhome-section">
+
+
+
+        <!-- this is for home section -->
+        <!--  this is for header part  -->
+        <div class="main-container">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+                    <a class="navbar-brand" href="#">
+                        <img class="banaer_image" src="https://www.effe.in/img/customer-logos/vignan.jpg" />
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link" id="menuitem1" href="course_admin.jsp">Course <span
+                                    class="sr-only">(current)</span></a>
+                            <a class="nav-link" id="menuitem2" href="syllabus_admin.jsp">Subject</a>
+
+                            <a class="nav-link" id="menuitem3" href="Faculty_admin.jsp">set_time_table</a>
+                            <a class="nav-link" id="menuitem4" href="time_table_admin.jsp">Time-Table</a>
+                            <a class="nav-link" id="menuitem5" href="Admin_page.jsp">home </a>
+                        </div>
+                    </div>
+                </nav>
+
+
+                <!-- this is body part of home -->
+
+                <div class="detailed-view-bg-container d-flex flex-column justify-content-center">
+
+                    <div class="containerrr d-flex flex-row justify-content-center mt-5">
+
+                        <div class="containerr mt-5" style="width:50%">
+
+                            <form action="timing_table_2" method="post">
+
+
+                                <div class="card-header text-center mb-3">
+                                    <span class="fa fa-user-plus fa-2x"></span>
+                                    <p>Faculty Profile Form </p>
+                                </div>
+
+                                <!-- to store the error sms
+                    or which is send by loginservlet
+                    
+                     -->
+
+                                <% Message_class m=(Message_class) session.getAttribute("msg"); if (m !=null) { %>
+                                    <div class="alert <%= m.getCssClass() %>" role="alert">
+                                        <%= m.getContent() %>
+                                    </div>
+
+
+                                    <% session.removeAttribute("msg"); // to delete the session other wise it will show
+                                        } %>
+
+
+                                        <!-- this is card-body..  -->
+
+
+
+                                        <table>
+
+                                            <tr>
+                                                <td class="pl-3"> <label for="timing">select operation:</label> </td>
+                                                <td class="pl-5"><label for="timing">select day:</label> </td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td class="pl-3">
+                                                    <select id="admin_faculty_timing"
+                                                        name="admin_faculty_operation_timing" class="form-control">
+                                                        <option value="create">Create</option>
+                                                        <option value="update">Update</option>
+                                                    </select>
+
+                                                </td>
+
+                                                <td class="pl-5">
+
+                                                    <select id="admin_faculty_timing" name="admin_faculty_operation_day"
+                                                        class="form-control">
+                                                        <option value="monday">MONDAY</option>
+                                                        <option value="tuesday">TUESDAY</option>
+                                                        <option value="wednesday">WEDNESDAY</option>
+                                                        <option value="thursday">THURSDAY</option>
+                                                        <option value="friday">FRIDAY</option>
+                                                        <option value="saturday">SATURDAY</option>
+                                                    </select>
+
+                                                </td>
+
+                                            </tr>
+
+
+                                            <tr>
+                                                <!--       <td> <label for="faculty_id">Enter ID number</label> </td>           
+                                                <td class="pl-5">
+                                           -->
+                                                <td class="pl-3">
+
+                                                    <input name="faculty_id_timing" type="text" class="form-control"
+                                                        id="faculty_id" placeholder="Enter faculty ID number" required>
+
+                                                </td>
+
+                                                <td class="pl-5">
+
+                                                    <input name="subject_id_timing" type="text" class="form-control"
+                                                        id="faculty_id" placeholder="Enter subject ID number" required>
+
+                                                </td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <!--       <td> <label for="faculty_id">Enter ID number</label> </td>           
+                                                <td class="pl-5">
+                                           -->
+                                                <td class="pl-3">
+
+                                                    <input name="course_id_timing" type="text" class="form-control"
+                                                        id="faculty_id" placeholder="Enter course ID number" required>
+
+                                                </td>
+
+                                                <td class="pl-5">
+
+                                                    <input name="course_name" type="text" class="form-control"
+                                                        id="faculty_id" placeholder="Enter course name" required>
+
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <!--       <td> <label for="faculty_id">Enter ID number</label> </td>           
+                                                <td class="pl-5">
+                                           -->
+                                                <td class="pl-3">
+
+                                                    <input name="course_year" type="text" class="form-control"
+                                                        id="faculty_id" placeholder="Enter course year" required>
+
+                                                </td>
+
+                                                <td class="pl-5">
+
+                                                    <input name="section" type="text" class="form-control"
+                                                        id="faculty_id" placeholder="Enter section" required>
+
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <!--       <td> <label for="faculty_id">Enter ID number</label> </td>           
+                                                <td class="pl-5">
+                                           -->
+                                                <td class="pl-3">
+
+                                                    <select id="timing_period" name="tming_period" class="form-control">
+                                                        <option value=" ">select period</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                        <option value="6">6</option>
+                                                        <option value="7">7</option>
+                                                        <option value="8">8</option>
+                                                    </select>
+
+                                                </td>
+
+
+                                            </tr>
+
+
+                                        </table>
+                                        <div class="bootmo">
+                                            <div class="form-check">
+                                                <input name="check" type="checkbox" class="form-check-input"
+                                                    id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Check me
+                                                    out</label>
+                                            </div>
+
+                                            <div class="button-card mt-3 text-center">
+                                                <input type="submit" value="Submit">
+                                            </div>
+
+                                        </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  this is footer section -->
+
+            <div class="footer-section pt-5 pb-5 mt-5">
+                <div class="container-foot">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img src="https://www.effe.in/img/customer-logos/vignan.jpg" class="banaer_image" />
+                            <h1 class="footer-section-mail-id">vignanguntur@gmail.com</h1>
+                            <p class="footer-section-address">
+                                pin-code:522213,guntur , vadlamundi
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+    <!-- this is for second section-->
+
+    <div id="sectionlist-of-place">
+        <div class="bg-container">
+            <h1 class="main-hadding">favourite places</h1>
+            <div class="card-container d-flex flex-row" onclick="display('sectiontajmahal-place')">
+                <div class="card-text">
+                    <h1 class="card-heading">T AJ MAHAL</h1>
+                    <p class="card-p">the taj mahal is one of most popular tourish place of india. where so many people
+                        are coming.</p>
+                </div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-img.png"
+                    class="card-image" />
+
+            </div>
+
+
+            <div class="card-container d-flex flex-row " onclick=" display('sectiongolden-place')">
+                <div class="card-text">
+                    <h1 class="card-heading">Golden Temple</h1>
+                    <p class="card-p">Amritsar is world-famous for the beautiful and highly revered Golden
+                        Temple</p>
+                </div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/golden-temple-img.png"
+                    class="card-image" />
+
+            </div>
+
+            <div class="card-container d-flex flex-row" onclick="display('sectionmysore-place')">
+                <div class="card-text">
+                    <h1 class="card-heading">Mysore Palace</h1>
+                    <p class="card-p">The Mysore Palace is a historical palace and the royal residence at
+                        Mysore .</p>
+                </div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace-img.png"
+                    class="card-image" />
+
+            </div>
+
+            <div class="card-container d-flex flex-row">
+                <div class="card-text">
+                    <h1 class="card-heading"> Varanasi Temple</h1>
+                    <p class="card-p">Varanasi Temple is most famous Hindu temples dedicated to Lord Shiva</p>
+                </div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi-temple-img.png"
+                    class="card-image" />
+
+            </div>
+            <button class="btn btn-primary" onclick="display('sectiontajmahal-place')">
+                Go to next
+            </button>
+
+            <button class="btn btn-primary" onclick="display('sectionhome-section')">
+                Go to back
+            </button>
+        </div>
+
+    </div>
+
+    <!-- ths is third section   for thajmahal details          -->
+    <div id="sectiontajmahal-place">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c1-img.png"
+                                class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c2-img.png"
+                                class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c3-img.png"
+                                class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Taj Mahal</h1>
+                    <p class="detailed-view-card-description">
+                        The Taj Mahal is considered to be the greatest architectural
+                        achievement in the whole range of Indo-Islamic architecture. Its
+                        recognised architectonic beauty has a rhythmic combination of solids
+                        and voids, concave and convex and light shadow; such as arches and
+                        domes further increases the aesthetic aspect. Not a piece of
+                        architecture, as other buildings are, but the proud passions of an
+                        emperor’s love wrought in living stones.
+                    </p>
+                </div>
+            </div>
+
+            <button class="btn btn-primary" onclick="display('sectionlist-of-place')">
+                Go to back
+            </button>
+
+            <button class="btn btn-primary" onclick="display('sectionhome-section')">
+                Go to home
+            </button>
+        </div>
+
+    </div>
+    <!--this is veiw part for golden -->
+    <div id="sectiongolden-place">
+
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="goldenTempleCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#goldenTempleCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#goldenTempleCarousel" data-slide-to="1"></li>
+                        <li data-target="#goldenTempleCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goldentemple1-img.png"
+                                class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goldentemple2-img.png"
+                                class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goldentemple3-img.png"
+                                class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#goldenTempleCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#goldenTempleCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Golden Temple</h1>
+                    <p class="detailed-view-card-description">
+                        The Golden Temple, also known as Harmandir Sahib is a gurdwara
+                        located in the city of Amritsar, Punjab, India. There are many
+                        places to visit Near Golden Temple like Jallianwala Bagh, Wagah Border, Harike Wetland, Bathinda
+                        Fort.
+                    </p>
+                </div>
+
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionlist-of-place')">
+                Go to back
+            </button>
+
+            <button class="btn btn-primary" onclick="display('sectionhome-section')">
+                Go to home
+            </button>
+        </div>
+
+
+    </div>
+
+    <!--this is veiw part for mysore palace -->
+
+    <div id="sectionmysore-place">
+
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading ">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="mysorePalaceCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#mysorePalaceCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mysorePalaceCarousel" data-slide-to="1"></li>
+                        <li data-target="#mysorePalaceCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace1-img.png"
+                                class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace2-img.png"
+                                class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace3-img.png"
+                                class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#mysorePalaceCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#mysorePalaceCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Mysore Palace</h1>
+                    <p class="detailed-view-card-description">
+                        Mysore Palace, also called Amba Vilas Palace, is one of the most magnificent and largest palaces
+                        in India. Situated in the southern state of Karnataka, it used to be the official residence of
+                        the Wodeyar Dynasty, the rulers of Mysore from 1399 to 1950. The grand palace stands tall in the
+                        heart of Mysore city and attracts visitors from across the world. Being one of the prime
+                        attractions in India after the Taj Mahal, it certainly deserves a place in every traveler’s
+                        bucket list.
+                    </p>
+                </div>
+            </div>
+
+            <button class="btn btn-primary" onclick="display('sectionlist-of-place')">
+                Go to back
+            </button>
+
+            <button class="btn btn-primary" onclick="display('sectionhome-section')">
+                Go to home
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript"
+        src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

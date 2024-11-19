@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;nptl_for_awt_and_swing_program&apos;" deleteContents="true" description="Delete resource &apos;nptl_for_awt_and_swing_program&apos;" element1="/nptl_for_awt_and_swing_program" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1679929261340"/>
+</session>

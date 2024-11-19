@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+E:\CODE\next_wave java code\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3558789478.index
+3439177383.index
+1163742747.index
+4086722912.index
+37268867.index
+237596462.index
+374445545.index

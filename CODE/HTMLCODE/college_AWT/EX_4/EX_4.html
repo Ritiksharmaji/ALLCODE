@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="name">-----</h1>
+    <script type="text/javascript">
+
+
+        function printvalue() {
+            var n = document.form1.name.value;
+            for (var i = 1; i <= n; i++) {
+                var p = 0;
+                for (var j = 1; j <= i; j++) {
+                    if (i % j == 0)
+
+                        p++;
+                }
+                if (p == 2) {
+                    document.write(" " + i);
+                }
+            }
+        }
+
+    </script>
+    <script type="text/javascript">
+        function fibanocci() {
+            var t = document.form1.name.value;
+            var n1 = 0, n2 = 1;
+
+            for (var i = 1; i <= t; i++) {
+                document.write(" " + n1)
+                nextTerm = n1 + n2;
+                n1 = n2;
+                n2 = nextTerm;
+            }
+        }
+    </script>
+
+    <script>
+        function factorial() {
+            var p = document.form1.name.value;
+            if (p < 0) {
+                document.write("Error ! negetive number");
+
+            }
+            else if (p == 0) {
+                document.write("the factorial of ${p} is 1");
+            }
+            else {
+                var fact = 1;
+                for (var i = 1; i <= p; i++) {
+                    fact *= i;
+                }
+                document.write("The factorial of  ${p} is" + fact);
+            }
+        }
+
+
+    </script>
+
+    <script>
+        function palindrome() {
+            var number = document.form1.name.value;
+            var rem, temp, final = 0;
+            temp = number;
+            while (number > 0) {
+                rem = number % 10;
+                number = parseInt(number / 10);
+                final = final * 10 + rem;
+            }
+            if (final == temp) {
+                document.write("yes")
+
+            }
+            else {
+                document.write("no")
+            }
+        }
+    </script>
+
+    <form name="form1">
+        enter number:<input type="text" name="name" />
+
+        <br><br><br>
+        <input type="button" onclick="printvalue()" value="print prime" />
+        <input type="button" onclick="fibanocci()" value="print fibanocci" />
+        <input type="button" onclick="factorial() " value="print factorial" />
+        <input type="button" onclick="palindrome()" value="palindrome or not" />
+    </form>
+
+</body>
+
+</html>

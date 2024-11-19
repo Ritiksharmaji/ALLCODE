@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blur and Click Events Example</title>
+</head>
+
+<body>
+    <input type="text" id="myInput">
+    <button id="myButton">Click me</button>
+    <p id="message"></p>
+
+    <script>
+        // Get references to the input element, button, and message paragraph
+        const inputElement = document.getElementById("myInput");
+        const buttonElement = document.getElementById("myButton");
+        const messageElement = document.getElementById("message");
+
+        // Add a blur event listener to the input element
+        inputElement.addEventListener("blur", function () {
+            // Display a message when the input loses focus
+            messageElement.textContent = "Input lost focus";
+        });
+
+        // Add a click event listener to the button element
+        buttonElement.addEventListener("click", function () {
+            // Display a message when the button is clicked
+            messageElement.textContent = "Button clicked";
+        });
+    </script>
+</body>
+
+</html>

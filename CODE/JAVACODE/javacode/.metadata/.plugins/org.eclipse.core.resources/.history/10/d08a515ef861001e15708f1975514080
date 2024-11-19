@@ -1,0 +1,10 @@
+package Array_with_ArrayList_with_Linklist;
+
+public class deletion_array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

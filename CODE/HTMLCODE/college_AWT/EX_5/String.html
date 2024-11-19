@@ -1,0 +1,31 @@
+<html>
+
+<body>
+    <h1> JavaScript String </h1>
+    <button onclick="myFunction()">display all the results</button>
+    <p id="a"></p>
+    <p id="b"></p>
+    <p id="c"></p>
+    <p id="d"></p>
+    <p id="e"></p>
+    <script>
+        function myFunction() {
+            var str = "NAGA SUDHEER";
+            var str1 = "INFORMATION TECHNOLOGY";
+            var res = str.charAt(5)
+            document.getElementById("a").innerHTML = res;
+            var con = str.concat(str1);
+            document.getElementById("b").innerHTML = con;
+            var low = str.toLowerCase();
+            document.getElementById("c").innerHTML = low;
+            var str2 = "vignan university";
+            var up = str2.toUpperCase();
+            document.getElementById("d").innerHTML = up;
+            var str3 = " Web Technologies ";
+            var trm = str3.trim();
+            document.getElementById("e").innerHTML = trm;
+        }
+    </script>
+</body>
+
+</html>

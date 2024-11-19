@@ -1,0 +1,128 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Insert title here</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+
+            .login-container {
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            label {
+                font-weight: bold;
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            input[type="text"],
+            input[type="password"] {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                box-sizing: border-box;
+            }
+
+            select {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                box-sizing: border-box;
+            }
+
+            button {
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                border-radius: 3px;
+                padding: 10px 20px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="login-container">
+            <!-- header part of card-container -->
+            <div class="header-container text-center">
+                <h2>Faculty_admin page</h2>
+
+                <!-- end of header part -->
+            </div>
+            <!-- body part of card-container -->
+            <div class="body-container pb-4">
+                <form action="Faculty_Admin_Servlet" method="post">
+                    <label for="admin_faculty">select operation:</label>
+                    <select id="admin_faculty" name="admin_faculty_operation">
+                        <option value="create">Create</option>
+                        <option value="update">Update</option>
+
+                    </select>
+
+                    <label for="id">ID Number:</label>
+                    <input type="text" id="id" name="faculty_id" required>
+                    <label for="syllabus_name">Faculty Name:</label>
+                    <input type="text" id="text_pass" name="faculty_name" required>
+
+                    <div class="form-group">
+                        <label for="gender">Select gender</label>
+
+                        <input type="radio" id="gender" name="gender" value="male">male
+                        <input type="radio" id="gender" name="gender" value="female">Female
+                        <input type="radio" id="gender" name="gender" value="other">other
+                    </div>
+
+
+                    <label for="facultJoin">Faculty joining Date:</label>
+                    <input type="date" id="faculty_date" name="faculty_join_date" required>
+                    <!-- end of body part of card-container -->
+            </div>
+            <!-- this is footer part -->
+            <div class="form-check">
+                <input name="check" type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <br>
+            <div class="container text-center" id="loader" style="display:none;">
+                <span class="fa fa-refresh fa-spin fa-3x"></span>
+                <h4>please wait....</h4>
+            </div>
+
+            <button id="sumbimt-btn" type="submit" class="btn btn-primary">Submit</button>
+            <!-- this is end  -->
+            </form>
+        </div>
+    </body>
+
+    </html>

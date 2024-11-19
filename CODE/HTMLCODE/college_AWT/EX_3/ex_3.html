@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- this is for image container-->
+    <style>
+        .image-card {
+
+            border-color: yellow;
+            width: 100px;
+            height: 80px
+        }
+    </style>
+
+    <script type="text/javascript">
+
+        function myfunction() {
+            document.getElementById("main").style.backgroundColor = "red";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="main-container " id="main" onclick="myfunction();">
+
+        <div class="card-container-heading" style="font-size:12px; font-style: italic;">
+            <h1 class="heading">this is heading first</h1>
+            <h2 class="heading">this is heading second</h2>
+
+        </div>
+        <div class="image-container-card">
+
+            <img src="https://www.vidyavision.com/CollegeUploads/Logos/2016-09-6-06-44-05_vignanlogo.png"
+                class="image-card" />
+
+            <img src="https://vignan.ac.in/blog/images/blog3.png" class="image-card" />
+
+        </div>
+
+        <div class="button-card-container">
+
+            <button type="reset" name="reset_button">Reset</button>
+            <button type="submit" name="submit_button">Submit</button>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

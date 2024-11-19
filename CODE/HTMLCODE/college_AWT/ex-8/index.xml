@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSEBooks>
+    <book1>
+        <title>Book Title 1</title>
+        <author>Author 1</author>
+        <pages>300</pages>
+        <price>20</price>
+        <copies>10</copies>
+    </book1>
+    <book2>
+        <title>Book Title 2</title>
+        <author>Author 2</author>
+        <pages>250</pages>
+        <price>15</price>
+        <copies>10</copies>
+    </book2>
+    <book3>
+        <title>Book Title 3</title>
+        <author>Author 3</author>
+        <pages>400</pages>
+        <price>25</price>
+        <copies>10</copies>
+    </book3>
+    <book4>
+        <title>Book Title 4</title>
+        <author>Author 4</author>
+        <pages>200</pages>
+        <price>18</price>
+        <copies>10</copies>
+    </book4>
+    <book5>
+        <title>Book Title 5</title>
+        <author>Author 5</author>
+        <pages>350</pages>
+        <price>22</price>
+        <copies>10</copies>
+    </book5>
+</CSEBooks>

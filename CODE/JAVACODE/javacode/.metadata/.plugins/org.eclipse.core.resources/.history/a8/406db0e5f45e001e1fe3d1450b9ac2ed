@@ -1,0 +1,22 @@
+package Array;
+/*
+ * Random number generate.
+ */
+public class Class_1 {
+	
+	int Max =100,Min=1;
+	int size;
+	int a[] = new int[1000];
+	
+	public int GenerateRandom(int max ,int min)
+	{
+		int rand = (int) ((Math.random()*(max - min)+1)) + min;
+		return 0;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

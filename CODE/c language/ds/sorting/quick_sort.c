@@ -1,0 +1,66 @@
+#include <stdio.h>  
+
+int partition (int a[], int ib, int ub)  
+{  
+     int start,end,pivot,temp;
+     
+     pivot=a[ib];
+     start=ib;
+     end=ub;
+     
+while(start<end)
+{
+     while(a[start]<=pivot&&start<end)
+     {
+          start++;
+          
+     }
+     while(a[end]>pivot)
+     {
+          end--;
+     }
+     // for swapping
+     if(start<end)
+     {
+     temp=a[start];
+     a[start]=a[end];
+     a[end]=temp;
+     }
+}
+a[ib]=a[end];
+a[end]=pivot;
+return end;
+}
+
+  
+/* function to implement quick sort */  
+void quick(int a[], int start, int end) /* a[] = array to be sorted, start = Starting index, end = Ending index */  
+{  
+    if (start < end)  
+    {  
+        int p = partition(a, start, end); //p is the partitioning index  
+        quick(a, start, p - 1);  
+        quick(a, p + 1, end);  
+    }  
+}  
+  
+/* function to print an array */  
+void printArr(int a[], int n)  
+{  
+    int i;  
+    for (i = 0; i < n; i++)  
+        printf("%d ", a[i]);  
+}  
+int main()  
+{  
+    int a[] = { 24, 9, 29, 14, 19, 27 };  
+    int n = sizeof(a) / sizeof(a[0]);  
+    printf("Before sorting array elements are - \n");  
+    printArr(a, n);  
+    quick(a, 0, n - 1);  
+    printf("\nAfter sorting array elements are - \n");    
+    printArr(a, n);  
+      
+    return 0;  
+}  
+

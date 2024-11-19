@@ -1,0 +1,37 @@
+body {
+    background-image: url(https://www.freevector.com/uploads/vector/preview/3352/FreeVector-Dynamic-Background.jpg);
+    font-family: Arial, sans-serif;
+    background-size: cover;
+}
+
+.container {
+    width: 400px;
+    margin: 100px auto;
+    background-color: mediumspringgreen;
+    border: 1px solid #ccc;
+    padding: 20px;
+
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

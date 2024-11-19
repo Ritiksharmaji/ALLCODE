@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        let x, y, z;
+        let a, b, c;
+        x = document.getElementById("nameID");
+        y = document.getElementById("emailID");
+        z = document.getElementById("phoneId");
+        a = x.value;
+        b = y.value;
+        c = z.value;
+        let length_char = 20;
+        let length_phone = 10;
+
+
+        // validation of number           
+        function validate() {
+            var num = document.myform.num.value;
+            if (isNaN(num)) {
+                document.getElementById("numloc").innerHTML = "Enter Numeric value only";
+                return false;
+            } else {
+                return true;
+            }
+        }
+
+
+        function javascript() {
+            // alert("this is form");
+
+
+            // valide for email
+
+
+
+            // verify the lenght of name if null or not
+            if (a.trim().length === 0) {
+                alert("enter valide name:");
+
+            }
+            // verifying the lenght of name
+            else if (a.trim().length > length_char) {
+                alert("please enter name length upto 20 charecter")
+            }
+            else if ()
+
+
+
+
+        }
+
+        function validateLength(input, minLength, maxLength) {
+            const length = input.trim().length;
+            return length >= minLength && length <= maxLength;
+        }
+
+
+
+
+    </script>
+</head>
+
+<body>
+    <form>
+        <lable>enter the name</lable>
+        <input type="text" placeholder="enter in charecter" id="nameID" required /><br>
+        <label>enter email id:</label>
+        <input type="email" placeholder="@gmail.com" id="emailID" required /><br>
+        <label>enter phone number</label>
+        <input type="text" placeholder="123456789" id="phoneId" required />
+        <br><br>
+        <button type="submit" onclick="javascript()">submit</button>
+
+
+
+    </form>
+</body>
+
+</html>

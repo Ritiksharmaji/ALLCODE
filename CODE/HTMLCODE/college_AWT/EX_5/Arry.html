@@ -1,0 +1,31 @@
+<html>
+
+<body>
+    <h2>JavaScript Array</h2>
+    <p id="a"></p>
+    <p id="b"></p>
+    <p id="c"></p>
+    <p id="d"></p>
+    <p id="e"></p>
+    <p id="f"></p>
+    <p id="g"></p>
+    <script>
+        var fruits = ["Banana", "Orange", "Apple", "Mango"];
+        document.getElementById("a").innerHTML = fruits.join(" * ");
+        var fruits = ["Banana", "Orange", "Apple", "Mango"];
+        fruits.pop();
+        document.getElementById("b").innerHTML = fruits;
+        fruits.push("Kiwi");
+        document.getElementById("c").innerHTML = fruits;
+        fruits.shift();
+        document.getElementById("d").innerHTML = fruits;
+        fruits.unshift("Lemon");
+        document.getElementById("e").innerHTML = fruits;
+        fruits.sort();
+        document.getElementById("f").innerHTML = fruits;
+        fruits.reverse();
+        document.getElementById("g").innerHTML = fruits;
+    </script>
+</body>
+
+</html>

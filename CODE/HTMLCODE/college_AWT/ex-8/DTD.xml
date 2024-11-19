@@ -1,0 +1,13 @@
+<!DOCTYPE CSEBooks [
+    <!ELEMENT CSEBooks (book1, book2, book3, book4, book5)>
+    <!ELEMENT book1 (title, author, pages, price, copies)>
+    <!ELEMENT book2 (title, author, pages, price, copies)>
+    <!ELEMENT book3 (title, author, pages, price, copies)>
+    <!ELEMENT book4 (title, author, pages, price, copies)>
+    <!ELEMENT book5 (title, author, pages, price, copies)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT pages (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT copies (#PCDATA)>
+]>

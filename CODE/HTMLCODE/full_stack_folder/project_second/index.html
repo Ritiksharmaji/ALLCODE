@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLICATION FPRM</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <h1 id="form"> WELCOME TO VIGNAN UNIVERSITY.</h1>
+    <p id="marquee">
+        <marquee behavior="scroll"><b>THIS IS THE REGISTATION FORM </b></marquee>
+    </p>
+</body>
+
+<fieldset id="fieldset">
+
+    <legend id="student"> <b><i>FOR STUDENT INFORMATION</i> </b></legend>
+
+    <form>
+
+        <!--  <label> Firstname </label>
+    <input type="text" name="firstname" size="15" /> <br> <br>
+    <label> Middlename: </label>
+    <input type="text" name="middlename" size="15" /> <br> <br>
+    <label> Lastname: </label>
+    <input type="text" name="lastname" size="15" /> <br> <br>
+                       -->
+
+
+        <table id="table">
+
+            <tr>
+                <td id="name">NAME:</td>
+                <td>
+                    <input type="text" size="20" placeholder="Firstname" />
+                </td>
+                <td>
+                    <input type="text" size="20" placeholder="lastname" />
+                </td>
+            </tr>
+
+            <tr>
+                <td id="date_of_birth"> Date-Of-Birth: </td>
+                <td> <input type="date" placeholder="Date Of Birth" name=""> </td>
+
+            </tr>
+
+            <tr>
+                <td id="father">FATHER'S NAME:</td>
+                <td>
+                    <input type="text" size="20" placeholder="Firstname" />
+                </td>
+                <td>
+                    <input type="text" size="20" placeholder="lastname" />
+                </td>
+            </tr>
+            <tr>
+                <td id="mather"> MATHER'S NAME</td>
+                <td>
+                    <input type="text" size="20" placeholder="Firstname" />
+                </td>
+                <td>
+                    <input type="text" size="20" placeholder="lastname" />
+                </td>
+            </tr>
+            <tr>
+                <td id="OCCUPATION">FATER'S OCCUPATION:</td>
+                <td><input type="text size=40" placeholder=" FATHER'S OCCUPATION" /> </td>
+
+
+            </tr>
+
+            <tr>
+                <td id="OCCUPATION">MOTHER'S OCCUPATION:</td>
+                <td><input type="text size=40" placeholder=" MOTHER'S OCCUPATION" /> </td>
+            </tr>
+
+            <tr>
+                <td id="Email">STUDENT'S Email:</td>
+                <td><input type="email" placeholder="student@gmail.com" /></td>
+
+            </tr>
+            <tr>
+                <td id="Email">PARENT'S Email:</td>
+                <td><input type="email" placeholder="parents@gmail.com" /></td>
+
+            </tr>
+
+        </table>
+        <label id="phone">
+            STUDENT PHONE_NUMBER: :
+        </label>
+        <input type="text" name="country code" value="+91" size="2" />
+        <input type="text" name="phone" size="10" placeholder="0123456789" /> <br> <br>
+
+        <label id="phone">
+            PARENTS PHONE_NUMBER: :
+        </label>
+        <input type="text" name="country code" value="+91" size="2" />
+        <input type="text" name="phone" size="10" placeholder="0123456789" /> <br> <br>
+        <table>
+
+            <tr>
+                <td id="STATE"> STATE NAME WITH DISTIC: </td>
+                <td><input type="text" size="40" placeholder="BIHAR(SIWAN)" /></td>
+
+
+            </tr>
+            <tr>
+                <td id="STATE"> HOME ADDRESS: </td>
+                <td><textarea cols="40" rows="3" value="address">
+            </textarea> </td>
+            </tr>
+
+        </table>
+        <label id="Gender">
+            GENDER :
+        </label><br>
+        <input type="radio" name="male" /> Male <br>
+        <input type="radio" name="female" /> Female <br>
+        <input type="radio" name="other" /> Other
+
+</fieldset>
+<!--        it is for academic information   -->
+<!--      i want to do for a particular course like either master course and either bachaler coures-->
+<br><br>
+<fieldset id="fieldset">
+    <legend id="academic"> <b><i>FOR ACADEMIC INFORMATION:</i> </b></legend>
+
+    <table>
+        <tr>
+            <td>
+                <P id="course">Course</P>
+            </td>
+            <td>
+                <select aria-placeholder="Course">
+                    <option value="b.Tech">b.tech</option>
+                    <option value="BCA">BCA</option>
+                    <option value="BBA">BBA</option>
+                    <option value="m.Tech">m.Tech</option>
+                    <option value="MBA">MBA</option>
+                    <option value="MCA">MCA</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <input type="checkbox" name=" " required="required">I Agree
+    <hr width="1000" size="5px" color="red">
+    <center>
+        <table>
+
+            <tr>
+                <td> <input type="submit" value="Reset"> </td>
+                <td> <input type="submit" value="Submit"> </td>
+            </tr>
+
+        </table>
+    </center>
+</fieldset>
+</form>
+
+</html>

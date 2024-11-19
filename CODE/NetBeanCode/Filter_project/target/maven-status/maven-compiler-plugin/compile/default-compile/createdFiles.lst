@@ -1,0 +1,4 @@
+com\mycompany\filter_project\resources\JakartaEE8Resource.class
+com\mycompany\filter_project\JakartaRestConfiguration.class
+servlet_pack\order.class
+servlet_pack\Profile.class

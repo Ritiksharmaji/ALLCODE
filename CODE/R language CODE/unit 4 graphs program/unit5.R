@@ -1,0 +1,12 @@
+x = seq(-15, 15, by=0.1)
+
+y = dnorm(x, mean(x), sd(x))
+
+# output to be present as PNG file
+png(file="dnormExample.png")
+
+# Plot the graph.
+plot(x, y)
+
+# saving the file
+dev.off()  

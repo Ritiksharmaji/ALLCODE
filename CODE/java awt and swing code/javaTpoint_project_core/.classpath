@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/catalina-ssi.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/ecj-4.20.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/jaspic-api.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/mysql-connector-j-8.0.32.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/tomcat-i18n-cs.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/tomcat-i18n-de.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/tomcat-i18n-ko.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/tomcat-i18n-pt-BR.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/tomcat-i18n-ru.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/tomcat-i18n-zh-CN.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0_Tomcat9_temp/lib/websocket-api.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

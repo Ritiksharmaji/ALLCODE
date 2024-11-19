@@ -1,0 +1,10 @@
+package method_with_variable_listOf_parameter;
+
+public class exaple_2_7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

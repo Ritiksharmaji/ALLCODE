@@ -1,0 +1,20 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 07-Apr-2023, 1:17:38 pm
+    Author     : RITIK SHARMA
+*/
+
+body{
+    background-image: url("https://wallpapercave.com/wp/wp2506795.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+}
+.container{
+    border-radius: 15px;
+}
+
+
+

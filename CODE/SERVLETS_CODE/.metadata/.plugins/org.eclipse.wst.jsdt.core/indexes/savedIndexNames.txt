@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+E:\CODE\SERVLETS_CODE\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+754149352.index

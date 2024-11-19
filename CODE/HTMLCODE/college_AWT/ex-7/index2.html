@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Validation Example</title>
+</head>
+
+<body>
+    <h1>Form Validation</h1>
+    <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone"><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <p id="validationMessage"></p>
+
+    <script>
+        const form = document.getElementById("myForm");
+        const nameInput = document.getElementById("name");
+        const emailInput = document.getElementById("email");
+        const phoneInput = document.getElementById("phone");
+        const validationMessage = document.getElementById("validationMessage");
+
+        form.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            // Regular expressions for validation
+            const nameRegex = /^[A-Za-z\s]+$/;
+            const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+            const phoneRegex = /^\d{10}$/;
+
+            const name = nameInput.value;
+            const email = emailInput.value;
+            const phone = phoneInput.value;
+
+            // Validate name
+            if (!nameRegex.test(name)) {
+                validationMessage.textContent = "Invalid name. Please use only letters and spaces.";
+                return;
+            }
+
+            // Validate email
+            if (!emailRegex.test(email)) {
+                validationMessage.textContent = "Invalid email address.";
+                return;
+            }
+
+            // Validate phone number
+            if (!phoneRegex.test(phone)) {
+                validationMessage.textContent = "Invalid phone number. Please enter 10 digits.";
+                return;
+            }
+
+            // All fields are valid
+            validationMessage.textContent = "Form submitted successfully!";
+        });
+    </script>
+</body>
+
+</html>
